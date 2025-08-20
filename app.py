@@ -18,8 +18,8 @@ NEWS_API_KEY = os.getenv("NEWS_API_KEY")
 ALPHAVANTAGE_API_KEY = os.getenv("ALPHAVANTAGE_API_KEY")
 
 
-DATA_FOLDER = "C:/Users/atcha/RAGpoc/Finance/data"
-VECTOR_STORE_PATH = "C:/Users/atcha/RAGpoc/Finance/financial_vectorstore"
+DATA_FOLDER = "data"
+VECTOR_STORE_PATH = "financial_vectorstore"
 
 
 STOCK_SYMBOLS = {
