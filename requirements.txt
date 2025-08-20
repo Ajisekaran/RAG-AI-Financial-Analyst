@@ -1,0 +1,27 @@
+# Core dependencies for AI Financial Analyst
+streamlit>=1.28.0
+yfinance>=0.2.18
+requests>=2.31.0
+python-dotenv>=1.0.0
+newsapi-python>=0.2.7
+
+# LangChain and AI dependencies
+langchain>=0.1.0
+langchain-groq>=0.1.0
+langchain-community>=0.0.20
+langchain-huggingface>=0.0.1
+
+# Vector store and embeddings
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+
+# Document processing
+pypdf>=3.17.0
+unstructured>=0.10.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Optional: For better CSV handling
+charset-normalizer>=3.3.0
